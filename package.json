@@ -5,8 +5,8 @@
   "description": "VanillaJS plugin starter using Webpack",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --mode=development"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,10 @@
   },
   "homepage": "https://github.com/thatisuday/js-plugin-starter#readme",
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
     "autoprefixer": "^8.5.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
+    "babel-loader": "^8.0.0-beta.3",
     "css-loader": "^0.28.11",
     "cssnano": "^3.10.0",
     "html-webpack-plugin": "^3.2.0",
@@ -32,8 +31,8 @@
     "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
-    "uglifyjs-webpack-plugin": "^1.2.5",
-    "webpack": "^3.12.0",
-    "webpack-dev-server": "^2.11.2"
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
   }
 }
