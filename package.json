@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thatisuday/js-plugin-starter.git"
+    "url": "git+https://github.com/bighoho123/js-plugin-with-scss-starter"
   },
   "keywords": [],
-  "author": "Uday Hiwarale <thatisuday@gmail.com>",
+  "author": "Jinzhe Li <jinjinwudi@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thatisuday/js-plugin-starter/issues"
+    "url": "https://github.com/bighoho123/js-plugin-with-scss-starter"
   },
-  "homepage": "https://github.com/thatisuday/js-plugin-starter#readme",
+  "homepage": "https://github.com/bighoho123/js-plugin-with-scss-starter#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.47",
     "@babel/preset-env": "^7.0.0-beta.47",
